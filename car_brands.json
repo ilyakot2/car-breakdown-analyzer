@@ -1,0 +1,2936 @@
+{
+  "car_brands": [
+    {
+      "brand": "Toyota",
+      "description": "Японский автопроизводитель, известный надежностью и топливной экономичностью",
+      "country": "Япония",
+      "founded": 1937,
+      "segment": "mass",
+      "models": [
+        {
+          "model": "Camry",
+          "generation": "XV70",
+          "years": "2017-2023",
+          "body_type": "седан",
+          "engine_options": ["2.0L", "2.5L", "3.5L V6"],
+          "transmission": ["вариатор", "автоматическая"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "RAV4",
+          "generation": "XA50",
+          "years": "2018-2023",
+          "body_type": "кроссовер",
+          "engine_options": ["2.0L", "2.5L", "2.5L гибрид"],
+          "transmission": ["вариатор", "автоматическая"],
+          "drive_type": ["передний", "полный"]
+        },
+        {
+          "model": "Corolla",
+          "generation": "E210",
+          "years": "2018-2023",
+          "body_type": "седан",
+          "engine_options": ["1.6L", "1.8L", "2.0L"],
+          "transmission": ["механическая", "вариатор"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "Auris",
+          "generation": "E180",
+          "years": "2012-2018",
+          "body_type": "хэтчбек",
+          "engine_options": ["1.3L 101 л.с.", "1.6L 132 л.с.", "1.8L гибрид 136 л.с."],
+          "transmission": ["механическая 6-ступ", "вариатор"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "Hilux",
+          "generation": "VIII",
+          "years": "2015-2023",
+          "body_type": "пикап",
+          "engine_options": ["2.4L дизель 150 л.с.", "2.8L дизель 177 л.с.", "2.7L бензин 166 л.с."],
+          "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+          "drive_type": ["задний", "полный"]
+        },
+        {
+          "model": "Land Cruiser",
+          "generation": "J200",
+          "years": "2007-2021",
+          "body_type": "внедорожник",
+          "engine_options": ["4.0L V6 249 л.с.", "4.6L V8 309 л.с.", "4.5L дизель V8 235 л.с."],
+          "transmission": ["автоматическая 5-ступ", "автоматическая 6-ступ"],
+          "drive_type": "полный"
+        },
+        {
+          "model": "Highlander",
+          "generation": "XU70",
+          "years": "2019-2023",
+          "body_type": "внедорожник",
+          "engine_options": ["2.5L гибрид 248 л.с.", "3.5L V6 295 л.с."],
+          "transmission": ["вариатор", "автоматическая 8-ступ"],
+          "drive_type": ["передний", "полный"]
+        },
+        {
+          "model": "Prius",
+          "generation": "XW50",
+          "years": "2015-2022",
+          "body_type": "хэтчбек",
+          "engine_options": ["1.8L гибрид 122 л.с."],
+          "transmission": ["вариатор"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "Yaris",
+          "generation": "XP150",
+          "years": "2020-2023",
+          "body_type": ["хэтчбек", "седан"],
+          "engine_options": ["1.5L 110 л.с.", "1.5L гибрид 116 л.с."],
+          "transmission": ["вариатор", "механическая 6-ступ"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "C-HR",
+          "generation": "первое поколение",
+          "years": "2016-2023",
+          "body_type": "кроссовер",
+          "engine_options": ["1.2L турбо 116 л.с.", "1.8L гибрид 122 л.с.", "2.0L гибрид 184 л.с."],
+          "transmission": ["вариатор", "механическая 6-ступ"],
+          "drive_type": ["передний", "полный"]
+        }
+      ]
+    },
+    {
+      "brand": "Lada",
+      "description": "Российский автопроизводитель, предлагающий доступные и простые в обслуживании автомобили",
+      "country": "Россия",
+      "founded": 1966,
+      "segment": "budget",
+      "models": [
+        {
+          "model": "Vesta",
+          "generation": "первое поколение",
+          "years": "2015-2023",
+          "body_type": "седан",
+          "engine_options": ["1.6L 106 л.с.", "1.8L 122 л.с."],
+          "transmission": ["механическая 5-ступ", "вариатор", "робот"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "Granta",
+          "generation": "рестайлинг",
+          "years": "2018-2023",
+          "body_type": ["седан", "хэтчбек", "универсал"],
+          "engine_options": ["1.6L 87 л.с.", "1.6L 98 л.с.", "1.6L 106 л.с."],
+          "transmission": ["механическая 5-ступ"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "Niva",
+          "generation": "Legend",
+          "years": "1977-2023",
+          "body_type": "внедорожник",
+          "engine_options": ["1.7L 80 л.с."],
+          "transmission": ["механическая 5-ступ"],
+          "drive_type": "полный"
+        },
+        {
+          "model": "Largus",
+          "generation": "первое поколение",
+          "years": "2012-2023",
+          "body_type": ["универсал", "фургон"],
+          "engine_options": ["1.6L 87 л.с.", "1.6L 106 л.с."],
+          "transmission": ["механическая 5-ступ"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "XRAY",
+          "generation": "первое поколение",
+          "years": "2015-2023",
+          "body_type": "кроссовер",
+          "engine_options": ["1.6L 106 л.с.", "1.8L 122 л.с."],
+          "transmission": ["механическая 5-ступ", "вариатор"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "Самара (ВАЗ-2108)",
+          "generation": "первое поколение",
+          "years": "1984-2004",
+          "body_type": ["хэтчбек 3-дв", "хэтчбек 5-дв", "седан"],
+          "engine_options": ["1.1L", "1.3L", "1.5L"],
+          "transmission": ["механическая 4-ступ", "механическая 5-ступ"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "ВАЗ-2101",
+          "generation": "Жигули",
+          "years": "1970-1988",
+          "body_type": "седан",
+          "engine_options": ["1.2L", "1.3L", "1.5L"],
+          "transmission": ["механическая 4-ступ"],
+          "drive_type": "задний"
+        },
+        {
+          "model": "ВАЗ-2106",
+          "generation": "Жигули",
+          "years": "1976-2006",
+          "body_type": "седан",
+          "engine_options": ["1.3L", "1.5L", "1.6L"],
+          "transmission": ["механическая 4-ступ", "механическая 5-ступ"],
+          "drive_type": "задний"
+        },
+        {
+          "model": "ВАЗ-2107",
+          "generation": "Жигули",
+          "years": "1982-2012",
+          "body_type": "седан",
+          "engine_options": ["1.3L", "1.5L", "1.6L"],
+          "transmission": ["механическая 4-ступ", "механическая 5-ступ"],
+          "drive_type": "задний"
+        },
+        {
+          "model": "ВАЗ-2109",
+          "generation": "Самара",
+          "years": "1987-2004",
+          "body_type": "хэтчбек 3-дв",
+          "engine_options": ["1.1L", "1.3L", "1.5L"],
+          "transmission": ["механическая 5-ступ"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "ВАЗ-2110",
+          "generation": "десятое семейство",
+          "years": "1995-2007",
+          "body_type": "седан",
+          "engine_options": ["1.5L", "1.6L 8-кл", "1.6L 16-кл"],
+          "transmission": ["механическая 5-ступ"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "ВАЗ-2114",
+          "generation": "Самара-2",
+          "years": "2001-2013",
+          "body_type": "хэтчбек 5-дв",
+          "engine_options": ["1.5L", "1.6L 8-кл", "1.6L 16-кл"],
+          "transmission": ["механическая 5-ступ"],
+          "drive_type": "передний"
+        },
+        {
+          "model": "ВАЗ-1111 Ока",
+          "generation": "первое поколение",
+          "years": "1987-2008",
+          "body_type": "хэтчбек",
+          "engine_options": ["0.65L", "0.75L"],
+          "transmission": ["механическая 4-ступ"],
+          "drive_type": "передний"
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+  "description": "Немецкий производитель роскошных автомобилей с акцентом на динамику и технологии",
+  "country": "Германия",
+  "founded": 1916,
+  "segment": "premium",
+  "models": [
+    {
+      "model": "3 Series",
+      "generation": "G20",
+      "years": "2018-2023",
+      "body_type": "седан",
+      "engine_options": ["2.0L 320i", "2.0L 330i", "3.0L M340i"],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["задний", "полный xDrive"]
+    },
+    {
+      "model": "5 Series",
+      "generation": "G30",
+      "years": "2016-2023",
+      "body_type": "седан",
+      "engine_options": ["2.0L 520i", "3.0L 530i", "3.0L M550i"],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["задний", "полный xDrive"]
+    },
+    {
+      "model": "E39",
+      "generation": "пятое поколение",
+      "years": "1995-2004",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["2.0L 520i", "2.5L 525i", "2.8L 528i", "3.0L 530i", "4.4L 540i", "4.9L M5"],
+      "transmission": ["механическая 5-ступ", "автоматическая 5-ступ"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "M4",
+      "generation": "G82",
+      "years": "2020-2023",
+      "body_type": ["купе", "кабриолет"],
+      "engine_options": ["3.0L S58 480 л.с.", "3.0L S58 510 л.с. (Competition)"],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["задний", "полный xDrive"]
+    },
+    {
+      "model": "M5",
+      "generation": "F90",
+      "years": "2017-2023",
+      "body_type": "седан",
+      "engine_options": ["4.4L V8 600 л.с.", "4.4L V8 625 л.с. (Competition)"],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["задний", "полный xDrive"]
+    },
+    {
+      "model": "M8",
+      "generation": "G16",
+      "years": "2019-2023",
+      "body_type": ["купе", "кабриолет", "грануриозо"],
+      "engine_options": ["4.4L V8 600 л.с.", "4.4L V8 625 л.с. (Competition)"],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["задний", "полный xDrive"]
+    },
+    {
+      "model": "X5",
+      "generation": "G05",
+      "years": "2018-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["3.0L xDrive40i", "4.4L M50i", "3.0L гибрид"],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": "полный xDrive"
+    },
+    {
+      "model": "X7",
+      "generation": "G07",
+      "years": "2018-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["3.0L xDrive40i", "4.4L M50i", "3.0L дизель", "4.4L M60i"],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": "полный xDrive"
+    },
+    {
+      "model": "X3",
+      "generation": "G01",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L xDrive20i", "3.0L xDrive30i", "3.0L M40i"],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["задний", "полный xDrive"]
+    },
+    {
+      "model": "7 Series",
+      "generation": "G11",
+      "years": "2015-2022",
+      "body_type": "седан",
+      "engine_options": ["3.0L 730i", "4.4L 750i", "6.6L M760i"],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["задний", "полный xDrive"]
+    }
+  ]
+},
+{
+  "brand": "Mercedes-Benz",
+      "description": "Немецкий производитель премиальных автомобилей, символ роскоши и инноваций",
+      "country": "Германия",
+      "founded": 1926,
+      "segment": "luxury",
+      "models": [
+        {
+          "model": "C-Class",
+          "generation": "W205",
+          "years": "2014-2021",
+          "body_type": ["седан", "универсал", "купе"],
+          "engine_options": ["1.5L C180", "2.0L C200", "3.0L C43 AMG"],
+          "transmission": ["автоматическая 9-ступенчатая"],
+          "drive_type": ["задний", "полный 4MATIC"]
+        },
+        {
+          "model": "E-Class",
+          "generation": "W213",
+          "years": "2016-2023",
+          "body_type": ["седан", "универсал"],
+          "engine_options": ["2.0L E200", "3.0L E400", "4.0L E63 AMG"],
+          "transmission": ["автоматическая 9-ступенчатая"],
+          "drive_type": ["задний", "полный 4MATIC"]
+        },
+        {
+          "model": "S-Class",
+          "generation": "W222",
+          "years": "2013-2020",
+          "body_type": "седан",
+          "engine_options": ["3.0L S350", "4.7L S500", "6.0L S600"],
+          "transmission": ["автоматическая 9-ступенчатая"],
+          "drive_type": ["задний", "полный 4MATIC"]
+        },
+        {
+          "model": "GLC",
+          "generation": "X253",
+          "years": "2015-2022",
+          "body_type": "кроссовер",
+          "engine_options": ["2.0L GLC200", "2.0L GLC300", "3.0L GLC43 AMG"],
+          "transmission": ["автоматическая 9-ступенчатая"],
+          "drive_type": ["задний", "полный 4MATIC"]
+        },
+        {
+          "model": "GLE",
+          "generation": "W166",
+          "years": "2015-2019",
+          "body_type": "внедорожник",
+          "engine_options": ["3.0L GLE350", "4.7L GLE500", "5.5L GLE63 AMG"],
+          "transmission": ["автоматическая 9-ступенчатая"],
+          "drive_type": ["задний", "полный 4MATIC"]
+        },
+        {
+          "model": "A-Class",
+          "generation": "W177",
+          "years": "2018-2023",
+          "body_type": ["хэтчбек", "седан"],
+          "engine_options": ["1.3L A180", "2.0L A200", "2.0L A35 AMG"],
+          "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+          "drive_type": ["передний", "полный 4MATIC"]
+        },
+        {
+          "model": "G-Class",
+          "generation": "W463",
+          "years": "1990-2023",
+          "body_type": "внедорожник",
+          "engine_options": ["3.0L G350d", "4.0L G500", "4.0L G63 AMG"],
+          "transmission": ["автоматическая 9-ступенчатая"],
+          "drive_type": "полный 4MATIC"
+        }
+      ]
+    },
+    {
+      "brand": "Hyundai",
+  "description": "Корейский автопроизводитель, предлагающий современные автомобили с отличным соотношением цены и качества",
+  "country": "Южная Корея",
+  "founded": 1967,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "Solaris",
+      "generation": "рестайлинг",
+      "years": "2017-2020",
+      "body_type": "седан",
+      "engine_options": ["1.4L 100 л.с.", "1.6L 123 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Creta",
+      "generation": "первое поколение",
+      "years": "2016-2020",
+      "body_type": "кроссовер",
+      "engine_options": ["1.6L 123 л.с.", "2.0L 149 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Tucson",
+      "generation": "TL",
+      "years": "2015-2018",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L 150 л.с.", "2.0L дизель 185 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Accent",
+      "generation": "HC",
+      "years": "2010-2017",
+      "body_type": "седан",
+      "engine_options": ["1.4L 107 л.с.", "1.6L 123 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Azera",
+      "generation": "VG",
+      "years": "2011-2016",
+      "body_type": "седан",
+      "engine_options": ["3.0L V6 250 л.с.", "3.3L V6 271 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Getz",
+      "generation": "TB",
+      "years": "2002-2011",
+      "body_type": ["хэтчбек 3-дв", "хэтчбек 5-дв"],
+      "engine_options": ["1.1L 62 л.с.", "1.3L 82 л.с.", "1.4L 97 л.с.", "1.5L 101 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Santa Fe",
+      "generation": "TM",
+      "years": "2018-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["2.4L 188 л.с.", "2.0L турбо 235 л.с.", "2.2L дизель"],
+      "transmission": ["автоматическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Elantra",
+      "generation": "AD",
+      "years": "2016-2020",
+      "body_type": "седан",
+      "engine_options": ["1.6L 128 л.с.", "2.0L 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Sonata",
+      "generation": "LF",
+      "years": "2014-2019",
+      "body_type": "седан",
+      "engine_options": ["2.0L 150 л.с.", "2.4L 188 л.с.", "2.0L турбо 245 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "i30",
+      "generation": "PD",
+      "years": "2017-2020",
+      "body_type": ["хэтчбек", "универсал"],
+      "engine_options": ["1.4L 100 л.с.", "1.6L 130 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": "передний"
+    }
+  ]
+},
+{
+  "brand": "Audi",
+  "description": "Немецкий производитель премиальных автомобилей с акцентом на инновации и quattro полный привод",
+  "country": "Германия",
+  "founded": 1909,
+  "segment": "premium",
+  "models": [
+    {
+      "model": "A4",
+      "generation": "B9",
+      "years": "2015-2023",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["1.4L TFSI", "2.0L TFSI", "3.0L TDI"],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный quattro"]
+    },
+    {
+      "model": "A6",
+      "generation": "C8",
+      "years": "2018-2023",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["2.0L TFSI", "3.0L TFSI", "3.0L TDI"],
+      "transmission": ["автоматическая 7-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный quattro"]
+    },
+    {
+      "model": "100",
+      "generation": "C4",
+      "years": "1990-1994",
+      "body_type": ["седан", "универсал", "купе"],
+      "engine_options": ["2.0L 115 л.с.", "2.3L 133 л.с.", "2.6L V6 150 л.с.", "2.8L V6 174 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный quattro"]
+    },
+    {
+      "model": "80",
+      "generation": "B4",
+      "years": "1991-1996",
+      "body_type": ["седан", "универсал", "кабриолет"],
+      "engine_options": ["1.6L 75 л.с.", "1.8L 90 л.с.", "2.0L 115 л.с.", "2.6L V6 150 л.с.", "2.8L V6 174 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный quattro"]
+    },
+    {
+      "model": "A1",
+      "generation": "8X",
+      "years": "2010-2018",
+      "body_type": ["хэтчбек 3-дв", "хэтчбек 5-дв"],
+      "engine_options": ["1.2L TFSI 86 л.с.", "1.4L TFSI 122 л.с.", "1.6L TDI 105 л.с.", "2.0L TFSI 256 л.с. (S1)"],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "робот 7-ступ"],
+      "drive_type": ["передний", "полный quattro"]
+    },
+    {
+      "model": "A5",
+      "generation": "F5",
+      "years": "2016-2023",
+      "body_type": ["купе", "кабриолет", "спортбэк"],
+      "engine_options": ["2.0L TFSI 190 л.с.", "3.0L TFSI 354 л.с.", "2.0L TDI 190 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный quattro"]
+    },
+    {
+      "model": "A7",
+      "generation": "C8",
+      "years": "2017-2023",
+      "body_type": "спортбэк",
+      "engine_options": ["3.0L TFSI 340 л.с.", "3.0L TDI 286 л.с.", "4.0L TFSI 460 л.с. (S7)"],
+      "transmission": ["автоматическая 7-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный quattro"]
+    },
+    {
+      "model": "A8",
+      "generation": "D5",
+      "years": "2017-2023",
+      "body_type": "седан",
+      "engine_options": ["3.0L TFSI 340 л.с.", "4.0L TFSI 460 л.с.", "6.0L W12 585 л.с.", "3.0L TDI 286 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["полный quattro"]
+    },
+    {
+      "model": "Q2",
+      "generation": "GA",
+      "years": "2016-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.0L TFSI 116 л.с.", "1.4L TFSI 150 л.с.", "2.0L TFSI 190 л.с."],
+      "transmission": ["механическая 6-ступ", "робот 7-ступ"],
+      "drive_type": ["передний", "полный quattro"]
+    },
+    {
+      "model": "Q3",
+      "generation": "F3",
+      "years": "2018-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L TFSI 150 л.с.", "2.0L TFSI 190 л.с.", "2.0L TDI 150 л.с."],
+      "transmission": ["механическая 6-ступ", "робот 7-ступ"],
+      "drive_type": ["передний", "полный quattro"]
+    },
+    {
+      "model": "Q5",
+      "generation": "FY",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L TFSI 190 л.с.", "3.0L TFSI 354 л.с.", "2.0L TDI 190 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный quattro"]
+    },
+    {
+      "model": "TT",
+      "generation": "8S",
+      "years": "2014-2023",
+      "body_type": ["купе", "родстер"],
+      "engine_options": ["1.8L TFSI 180 л.с.", "2.0L TFSI 230 л.с.", "2.0L TFSI 310 л.с. (TT S)", "2.5L TFSI 400 л.с. (TT RS)"],
+      "transmission": ["робот 6-ступ", "робот 7-ступ"],
+      "drive_type": ["передний", "полный quattro"]
+    },
+    {
+      "model": "S5",
+      "generation": "F5",
+      "years": "2016-2023",
+      "body_type": ["купе", "кабриолет", "спортбэк"],
+      "engine_options": ["3.0L TFSI 354 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["полный quattro"]
+    },
+    {
+      "model": "SQ8",
+      "generation": "4M",
+      "years": "2019-2023",
+      "body_type": "кроссовер-купе",
+      "engine_options": ["4.0L V8 TFSI 500 л.с.", "3.0L V6 TDI 435 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["полный quattro"]
+    },
+    {
+      "model": "Q7",
+      "generation": "4M",
+      "years": "2015-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["2.0L TFSI 252 л.с.", "3.0L TFSI 333 л.с.", "3.0L TDI 249 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["полный quattro"]
+    }
+  ]
+},
+{
+  "brand": "Mitsubishi",
+  "description": "Японский автопроизводитель, известный надежными внедорожниками и спортивными автомобилями",
+  "country": "Япония",
+  "founded": 1970,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "ASX",
+      "generation": "третье поколение",
+      "years": "2018-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.6L 117 л.с.", "1.8L 140 л.с.", "2.0L 150 л.с.", "2.2L дизель 150 л.с."],
+      "transmission": ["механическая 5-ступ", "вариатор", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Galant",
+      "generation": "девятое поколение",
+      "years": "2004-2012",
+      "body_type": "седан",
+      "engine_options": ["2.4L 160 л.с.", "3.8L V6 258 л.с.", "2.0L турбо 237 л.с. (VR-4)"],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ", "автоматическая 5-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "L200",
+      "generation": "пятое поколение",
+      "years": "2014-2023",
+      "body_type": "пикап",
+      "engine_options": ["2.4L бензин 128 л.с.", "2.4L турбо дизель 181 л.с.", "2.5L турбо дизель 178 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 5-ступ"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "L400",
+      "generation": "первое поколение",
+      "years": "1994-2007",
+      "body_type": ["микроавтобус", "фургон", "внедорожник"],
+      "engine_options": ["2.4L бензин 125 л.с.", "2.5L турбо дизель 100 л.с.", "2.8L турбо дизель 125 л.с.", "3.0L V6 150 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "Lancer",
+      "generation": "десятое поколение",
+      "years": "2007-2017",
+      "body_type": ["седан", "хэтчбек"],
+      "engine_options": ["1.5L 109 л.с.", "1.6L 117 л.с.", "1.8L 143 л.с.", "2.0L турбо 240 л.с. (Evolution X)", "2.0L 150 л.с. (Ralliart)"],
+      "transmission": ["механическая 5-ступ", "вариатор", "робот 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Pajero",
+      "generation": "четвертое поколение",
+      "years": "2006-2021",
+      "body_type": "внедорожник",
+      "engine_options": ["3.0L V6 177 л.с.", "3.2L турбо дизель 200 л.с.", "3.5L V6 250 л.с.", "3.8L V6 250 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 5-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["полный Super Select 4WD"]
+    },
+    {
+      "model": "Outlander",
+      "generation": "третье поколение",
+      "years": "2012-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L 146 л.с.", "2.4L 167 л.с.", "2.2L дизель 150 л.с.", "2.0L гибрид"],
+      "transmission": ["вариатор", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Eclipse Cross",
+      "generation": "первое поколение",
+      "years": "2017-2023",
+      "body_type": "кроссовер-купе",
+      "engine_options": ["1.5L турбо 163 л.с.", "2.2L дизель 150 л.с."],
+      "transmission": ["вариатор", "механическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Pajero Sport",
+      "generation": "третье поколение",
+      "years": "2015-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["2.4L дизель 181 л.с.", "3.0L V6 220 л.с.", "2.5L дизель 178 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["полный Super Select 4WD-II"]
+    }
+  ]
+},
+{
+  "brand": "Ford",
+  "description": "Американский автогигант с богатой историей, известный мощными пикапами и массовыми моделями",
+  "country": "США",
+  "founded": 1903,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "Escape",
+      "generation": "четвертое поколение",
+      "years": "2019-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L EcoBoost 180 л.с.", "2.0L EcoBoost 250 л.с.", "2.5L гибрид 200 л.с."],
+      "transmission": ["автоматическая 8-ступ", "вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "F-150",
+      "generation": "тринадцатое поколение",
+      "years": "2015-2023",
+      "body_type": "пикап",
+      "engine_options": ["2.7L EcoBoost V6 325 л.с.", "3.5L EcoBoost V6 375 л.с.", "5.0L V8 395 л.с.", "3.0L Power Stroke дизель 250 л.с."],
+      "transmission": ["автоматическая 6-ступ", "автоматическая 10-ступ"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "Fiesta",
+      "generation": "седьмое поколение",
+      "years": "2017-2023",
+      "body_type": ["хэтчбек", "седан"],
+      "engine_options": ["1.0L EcoBoost 100 л.с.", "1.0L EcoBoost 125 л.с.", "1.5L EcoBoost 200 л.с. (ST)"],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Focus",
+      "generation": "четвертое поколение",
+      "years": "2018-2023",
+      "body_type": ["хэтчбек", "седан", "универсал"],
+      "engine_options": ["1.0L EcoBoost 100 л.с.", "1.5L EcoBoost 150 л.с.", "1.5L EcoBoost 182 л.с.", "2.0L EcoBoost 280 л.с. (ST)", "2.3L EcoBoost 350 л.с. (RS)"],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступ", "робот 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Fusion",
+      "generation": "второе поколение",
+      "years": "2012-2020",
+      "body_type": "седан",
+      "engine_options": ["1.5L EcoBoost 181 л.с.", "2.0L EcoBoost 245 л.с.", "2.5L 175 л.с.", "2.0L гибрид 188 л.с."],
+      "transmission": ["автоматическая 6-ступ", "вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Galaxy",
+      "generation": "третье поколение",
+      "years": "2015-2023",
+      "body_type": "минивэн",
+      "engine_options": ["1.5L EcoBoost 160 л.с.", "2.0L EcoBoost 240 л.с.", "2.0L EcoBlue дизель 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Kuga",
+      "generation": "третье поколение",
+      "years": "2019-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L EcoBoost 150 л.с.", "2.0L EcoBoost 245 л.с.", "2.5L гибрид 225 л.с.", "2.0L EcoBlue дизель 190 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Mondeo",
+      "generation": "пятое поколение",
+      "years": "2014-2022",
+      "body_type": ["седан", "хэтчбек", "универсал"],
+      "engine_options": ["1.5L EcoBoost 160 л.с.", "2.0L EcoBoost 203 л.с.", "2.0L EcoBoost 240 л.с.", "2.0L EcoBlue дизель 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Mustang",
+      "generation": "шестое поколение",
+      "years": "2014-2023",
+      "body_type": ["купе", "кабриолет"],
+      "engine_options": ["2.3L EcoBoost 317 л.с.", "5.0L V8 450 л.с.", "5.2L V8 526 л.с. (GT350)", "5.2L V8 760 л.с. (GT500)"],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ", "автоматическая 10-ступ"],
+      "drive_type": "задний"
+    },
+    {
+      "model": "Ranger",
+      "generation": "третье поколение",
+      "years": "2019-2023",
+      "body_type": "пикап",
+      "engine_options": ["2.0L EcoBlue дизель 170 л.с.", "2.0L EcoBlue дизель 213 л.с.", "3.2L EcoBlue дизель 200 л.с.", "2.3L EcoBoost 270 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ", "автоматическая 10-ступ"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "Scorpio",
+      "generation": "второе поколение",
+      "years": "1994-1998",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["2.0L 116 л.с.", "2.5L дизель 75 л.с.", "2.9L V6 145 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "Sierra",
+      "generation": "первое поколение",
+      "years": "1982-1993",
+      "body_type": ["седан", "хэтчбек", "универсал"],
+      "engine_options": ["1.6L 90 л.с.", "1.8L 105 л.с.", "2.0L 115 л.с.", "2.8L V6 150 л.с.", "2.9L V6 150 л.с."],
+      "transmission": ["механическая 4-ступ", "механическая 5-ступ", "автоматическая 3-ступ"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "Tourneo",
+      "generation": "третье поколение",
+      "years": "2016-2023",
+      "body_type": ["минивэн", "микроавтобус"],
+      "engine_options": ["2.0L EcoBlue дизель 130 л.с.", "2.0L EcoBlue дизель 170 л.с.", "2.0L EcoBlue дизель 185 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Explorer",
+      "generation": "шестое поколение",
+      "years": "2019-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["2.3L EcoBoost 300 л.с.", "3.0L EcoBoost V6 400 л.с.", "3.3L гибрид 318 л.с."],
+      "transmission": ["автоматическая 10-ступенчатая"],
+      "drive_type": ["задний", "полный"]
+    }
+  ]
+},
+{
+  "brand": "Haval",
+  "description": "Китайский производитель внедорожников и кроссоверов, часть концерна Great Wall Motors",
+  "country": "Китай",
+  "founded": 2013,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "Chitu",
+      "generation": "первое поколение",
+      "years": "2021-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L турбо 184 л.с.", "2.0L турбо 211 л.с."],
+      "transmission": ["робот 7-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Dargo",
+      "generation": "первое поколение",
+      "years": "2021-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["2.0L турбо 211 л.с.", "2.0L турбо дизель 190 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["полный"]
+    },
+    {
+      "model": "F7",
+      "generation": "первое поколение",
+      "years": "2018-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L турбо 169 л.с.", "2.0L турбо 224 л.с."],
+      "transmission": ["робот 7-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "H-Dog",
+      "generation": "первое поколение",
+      "years": "2022-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["1.5L турбо гибрид 326 л.с.", "2.0L турбо 245 л.с."],
+      "transmission": ["робот 9-ступ", "автоматическая 9-ступ"],
+      "drive_type": ["полный"]
+    },
+    {
+      "model": "H2",
+      "generation": "первое поколение",
+      "years": "2014-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L турбо 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "H3",
+      "generation": "первое поколение",
+      "years": "2020-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L турбо 150 л.с."],
+      "transmission": ["вариатор", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "H4",
+      "generation": "первое поколение",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.3L турбо 150 л.с.", "1.5L турбо 169 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "H5",
+      "generation": "первое поколение",
+      "years": "2012-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["2.0L турбо 190 л.с.", "2.0L дизель 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["полный"]
+    },
+    {
+      "model": "H6",
+      "generation": "третье поколение",
+      "years": "2020-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L турбо 169 л.с.", "2.0L турбо 211 л.с.", "1.5L гибрид 243 л.с."],
+      "transmission": ["робот 7-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "H6 Coupe",
+      "generation": "второе поколение",
+      "years": "2019-2023",
+      "body_type": "кроссовер-купе",
+      "engine_options": ["1.5L турбо 169 л.с.", "2.0L турбо 224 л.с."],
+      "transmission": ["робот 7-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "H6S",
+      "generation": "первое поколение",
+      "years": "2021-2023",
+      "body_type": "кроссовер-купе",
+      "engine_options": ["1.5L турбо гибрид 243 л.с.", "2.0L турбо 211 л.с."],
+      "transmission": ["робот 7-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "M6",
+      "generation": "первое поколение",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L турбо 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "H9",
+      "generation": "второе поколение",
+      "years": "2019-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["2.0L турбо 224 л.с.", "2.0L турбо дизель 190 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["полный"]
+    },
+    {
+      "model": "Jolion",
+      "generation": "первое поколение",
+      "years": "2020-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L турбо 150 л.с."],
+      "transmission": ["вариатор", "робот 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "M6 Plus",
+      "generation": "первое поколение",
+      "years": "2021-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L турбо 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Shenshou",
+      "generation": "первое поколение",
+      "years": "2021-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L турбо гибрид 243 л.с."],
+      "transmission": ["робот 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Dargo Max",
+      "generation": "первое поколение",
+      "years": "2022-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["2.0L турбо 245 л.с.", "2.4L турбо дизель 184 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["полный"]
+    }
+  ]
+},
+{
+  "brand": "Honda",
+  "description": "Японский производитель, известный надежными двигателями, инновационными технологиями и спортивной направленностью",
+  "country": "Япония",
+  "founded": 1948,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "Accord",
+      "generation": "десятое поколение",
+      "years": "2017-2023",
+      "body_type": "седан",
+      "engine_options": ["1.5L турбо 192 л.с.", "2.0L гибрид 212 л.с.", "2.0L турбо 252 л.с."],
+      "transmission": ["вариатор", "автоматическая 10-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Airwave",
+      "generation": "первое поколение",
+      "years": "2005-2014",
+      "body_type": "универсал",
+      "engine_options": ["1.5L 110 л.с.", "1.5L гибрид 110 л.с."],
+      "transmission": ["вариатор", "механическая 5-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "CR-V",
+      "generation": "пятое поколение",
+      "years": "2016-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L турбо 193 л.с.", "2.0L гибрид 212 л.с.", "2.4L 184 л.с."],
+      "transmission": ["вариатор", "автоматическая 9-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Civic",
+      "generation": "одиннадцатое поколение",
+      "years": "2021-2023",
+      "body_type": ["седан", "хэтчбек"],
+      "engine_options": ["1.5L турбо 182 л.с.", "2.0L 158 л.с.", "1.5L гибрид 184 л.с.", "2.0L 320 л.с. (Type R)"],
+      "transmission": ["вариатор", "механическая 6-ступ", "автоматическая 10-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Fit",
+      "generation": "четвертое поколение",
+      "years": "2020-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.3L 98 л.с.", "1.5L гибрид 109 л.с.", "1.5L 118 л.с."],
+      "transmission": ["вариатор", "механическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Freed",
+      "generation": "второе поколение",
+      "years": "2016-2023",
+      "body_type": ["минивэн", "компактвэн"],
+      "engine_options": ["1.5L 130 л.с.", "1.5L гибрид 137 л.с."],
+      "transmission": ["вариатор", "механическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "HR-V",
+      "generation": "второе поколение",
+      "years": "2021-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L 131 л.с.", "1.5L гибрид 131 л.с.", "1.5L турбо 182 л.с."],
+      "transmission": ["вариатор", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "N-BOX",
+      "generation": "третье поколение",
+      "years": "2022-2023",
+      "body_type": "кей-кар",
+      "engine_options": ["0.66L турбо 64 л.с.", "0.66L 58 л.с."],
+      "transmission": ["вариатор", "механическая 5-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "N-WGN",
+      "generation": "второе поколение",
+      "years": "2020-2023",
+      "body_type": "кей-кар",
+      "engine_options": ["0.66L 58 л.с.", "0.66L турбо 64 л.с."],
+      "transmission": ["вариатор", "механическая 5-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Odyssey",
+      "generation": "пятое поколение",
+      "years": "2013-2023",
+      "body_type": "минивэн",
+      "engine_options": ["2.4L 175 л.с.", "2.0L гибрид 215 л.с.", "2.4L 190 л.с."],
+      "transmission": ["вариатор", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Partner",
+      "generation": "первое поколение",
+      "years": "1996-2005",
+      "body_type": ["минивэн", "компактвэн"],
+      "engine_options": ["1.5L 105 л.с.", "1.8L 130 л.с.", "2.0L 150 л.с."],
+      "transmission": ["механическая 4-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Shuttle",
+      "generation": "второе поколение",
+      "years": "2015-2023",
+      "body_type": "универсал",
+      "engine_options": ["1.5L гибрид 109 л.с.", "1.5L 132 л.с."],
+      "transmission": ["вариатор", "механическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Stepwgn",
+      "generation": "пятое поколение",
+      "years": "2015-2023",
+      "body_type": "минивэн",
+      "engine_options": ["1.5L турбо 150 л.с.", "1.5L гибрид 145 л.с.", "2.0L 150 л.с."],
+      "transmission": ["вариатор", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Torneo",
+      "generation": "первое поколение",
+      "years": "1997-2002",
+      "body_type": "седан",
+      "engine_options": ["1.8L 140 л.с.", "2.0L 160 л.с.", "2.2L 185 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Vezel",
+      "generation": "второе поколение",
+      "years": "2020-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L гибрид 131 л.с.", "1.5L 131 л.с."],
+      "transmission": ["вариатор", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Jazz",
+      "generation": "четвертое поколение",
+      "years": "2020-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.3L 102 л.с.", "1.5L гибрид 109 л.с."],
+      "transmission": ["вариатор", "механическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    }
+  ]
+},
+{
+  "brand": "Kia",
+  "description": "Корейский автопроизводитель, предлагающий стильные, хорошо оснащенные автомобили с длинной гарантией",
+  "country": "Южная Корея",
+  "founded": 1944,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "Carnival",
+      "generation": "четвертое поколение",
+      "years": "2020-2023",
+      "body_type": "минивэн",
+      "engine_options": ["3.5L V6 272 л.с.", "2.2L дизель 202 л.с.", "3.5L V6 294 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Ceed",
+      "generation": "третье поколение",
+      "years": "2018-2023",
+      "body_type": ["хэтчбек", "универсал"],
+      "engine_options": ["1.0L T-GDI 120 л.с.", "1.4L T-GDI 140 л.с.", "1.6L T-GDI 204 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Cerato",
+      "generation": "третье поколение",
+      "years": "2018-2023",
+      "body_type": ["седан", "хэтчбек"],
+      "engine_options": ["2.0L 150 л.с.", "1.6L T-GDI 180 л.с.", "2.0L 149 л.с."],
+      "transmission": ["вариатор", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Forte",
+      "generation": "третье поколение",
+      "years": "2018-2023",
+      "body_type": "седан",
+      "engine_options": ["2.0L 147 л.с.", "1.6L турбо 201 л.с."],
+      "transmission": ["вариатор", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "K3",
+      "generation": "третье поколение",
+      "years": "2018-2023",
+      "body_type": "седан",
+      "engine_options": ["1.5L 115 л.с.", "1.4L T-GDI 130 л.с.", "1.6L 128 л.с."],
+      "transmission": ["вариатор", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "K5",
+      "generation": "пятое поколение",
+      "years": "2020-2023",
+      "body_type": "седан",
+      "engine_options": ["1.6L T-GDI 180 л.с.", "2.0L T-GDI 240 л.с.", "2.0L LPI 146 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Magentis",
+      "generation": "третье поколение",
+      "years": "2005-2010",
+      "body_type": "седан",
+      "engine_options": ["2.0L 143 л.с.", "2.4L 161 л.с.", "2.0L дизель 140 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ", "автоматическая 5-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Mohave",
+      "generation": "второе поколение",
+      "years": "2020-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["3.0L дизель V6 260 л.с.", "3.8L V6 295 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["полный"]
+    },
+    {
+      "model": "Optima",
+      "generation": "пятое поколение",
+      "years": "2015-2020",
+      "body_type": "седан",
+      "engine_options": ["2.0L 150 л.с.", "2.4L 188 л.с.", "1.6L турбо 180 л.с.", "2.0L турбо 245 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Picanto",
+      "generation": "третье поколение",
+      "years": "2017-2023",
+      "body_type": ["хэтчбек 3-дв", "хэтчбек 5-дв"],
+      "engine_options": ["1.0L 67 л.с.", "1.0L T-GDI 100 л.с.", "1.2L 84 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "ProCeed",
+      "generation": "третье поколение",
+      "years": "2018-2023",
+      "body_type": "универсал-купе",
+      "engine_options": ["1.0L T-GDI 120 л.с.", "1.4L T-GDI 140 л.с.", "1.6L T-GDI 204 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Rio",
+      "generation": "четвертое поколение",
+      "years": "2017-2023",
+      "body_type": ["седан", "хэтчбек"],
+      "engine_options": ["1.4L 100 л.с.", "1.6L 123 л.с.", "1.0L T-GDI 100 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Sorento",
+      "generation": "четвертое поколение",
+      "years": "2020-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["2.5L T-GDI 277 л.с.", "1.6L T-GDI гибрид 230 л.с.", "2.2L дизель 202 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Spectra",
+      "generation": "второе поколение",
+      "years": "2005-2009",
+      "body_type": ["седан", "хэтчбек"],
+      "engine_options": ["1.6L 105 л.с.", "2.0L 138 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Sportage",
+      "generation": "пятое поколение",
+      "years": "2021-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.6L T-GDI 150 л.с.", "1.6L T-GDI 180 л.с.", "2.0L дизель 186 л.с.", "1.6L T-GDI гибрид 230 л.с."],
+      "transmission": ["автоматическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Stinger",
+      "generation": "первое поколение",
+      "years": "2017-2023",
+      "body_type": "лифтбэк",
+      "engine_options": ["2.0L T-GDI 247 л.с.", "2.5L T-GDI 300 л.с.", "3.3L T-GDI V6 370 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "Venga",
+      "generation": "первое поколение",
+      "years": "2009-2019",
+      "body_type": "минивэн",
+      "engine_options": ["1.4L 90 л.с.", "1.6L 126 л.с.", "1.4L дизель 90 л.с.", "1.6L дизель 115 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Soul",
+      "generation": "третье поколение",
+      "years": "2019-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.6L 123 л.с.", "2.0L 147 л.с.", "1.6L T-GDI 201 л.с."],
+      "transmission": ["вариатор", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    }
+  ]
+},
+{
+  "brand": "Lexus",
+  "description": "Люксовый бренд Toyota, предлагающий бескомпромиссное качество, непревзойденный комфорт и передовые технологии",
+  "country": "Япония",
+  "founded": 1989,
+  "segment": "luxury",
+  "models": [
+    {
+      "model": "CT200h",
+      "generation": "первое поколение",
+      "years": "2011-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.8L гибрид 136 л.с."],
+      "transmission": ["вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "ES250",
+      "generation": "седьмое поколение",
+      "years": "2018-2023",
+      "body_type": "седан",
+      "engine_options": ["2.5L 204 л.с.", "2.5L гибрид 218 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая", "вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "GS300",
+      "generation": "четвертое поколение",
+      "years": "2011-2020",
+      "body_type": "седан",
+      "engine_options": ["2.0L турбо 245 л.с.", "3.5L V6 311 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "GS350",
+      "generation": "четвертое поколение",
+      "years": "2011-2020",
+      "body_type": "седан",
+      "engine_options": ["3.5L V6 311 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "GX460",
+      "generation": "второе поколение",
+      "years": "2010-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["4.6L V8 296 л.с.", "4.6L V8 305 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая", "автоматическая 8-ступенчатая"],
+      "drive_type": ["полный"]
+    },
+    {
+      "model": "GX470",
+      "generation": "первое поколение",
+      "years": "2002-2009",
+      "body_type": "внедорожник",
+      "engine_options": ["4.7L V8 235 л.с.", "4.7L V8 263 л.с."],
+      "transmission": ["автоматическая 5-ступенчатая"],
+      "drive_type": ["полный"]
+    },
+    {
+      "model": "IS250",
+      "generation": "третье поколение",
+      "years": "2013-2023",
+      "body_type": "седан",
+      "engine_options": ["2.5L V6 204 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая", "автоматическая 8-ступенчатая"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "LX450d",
+      "generation": "третье поколение",
+      "years": "2015-2021",
+      "body_type": "внедорожник",
+      "engine_options": ["4.5L дизель V8 272 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая"],
+      "drive_type": ["полный"]
+    },
+    {
+      "model": "LX470",
+      "generation": "второе поколение",
+      "years": "1998-2007",
+      "body_type": "внедорожник",
+      "engine_options": ["4.7L V8 235 л.с.", "4.7L V8 268 л.с."],
+      "transmission": ["автоматическая 5-ступенчатая"],
+      "drive_type": ["полный"]
+    },
+    {
+      "model": "LX570",
+      "generation": "третье поколение",
+      "years": "2007-2021",
+      "body_type": "внедорожник",
+      "engine_options": ["5.7L V8 367 л.с.", "5.7L V8 383 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая", "автоматическая 8-ступенчатая"],
+      "drive_type": ["полный"]
+    },
+    {
+      "model": "NX200",
+      "generation": "первое поколение",
+      "years": "2014-2021",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L 150 л.с."],
+      "transmission": ["вариатор", "автоматическая 6-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "NX200t",
+      "generation": "первое поколение",
+      "years": "2014-2017",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L турбо 238 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "NX300",
+      "generation": "первое поколение",
+      "years": "2017-2021",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L турбо 235 л.с.", "2.0L турбо 238 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "RX200t",
+      "generation": "четвертое поколение",
+      "years": "2015-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L турбо 238 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая", "автоматическая 8-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "RX270",
+      "generation": "третье поколение",
+      "years": "2009-2015",
+      "body_type": "кроссовер",
+      "engine_options": ["2.7L 188 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "RX300",
+      "generation": "первое поколение",
+      "years": "1997-2003",
+      "body_type": "кроссовер",
+      "engine_options": ["3.0L V6 220 л.с."],
+      "transmission": ["автоматическая 4-ступенчатая", "автоматическая 5-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "RX330",
+      "generation": "второе поколение",
+      "years": "2003-2006",
+      "body_type": "кроссовер",
+      "engine_options": ["3.3L V6 230 л.с."],
+      "transmission": ["автоматическая 5-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "RX350",
+      "generation": ["третье поколение", "четвертое поколение"],
+      "years": "2006-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["3.5L V6 270 л.с.", "3.5L V6 295 л.с.", "3.5L V6 300 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая", "автоматическая 8-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "RX400h",
+      "generation": "второе поколение",
+      "years": "2005-2009",
+      "body_type": "кроссовер",
+      "engine_options": ["3.3L V6 гибрид 268 л.с."],
+      "transmission": ["вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "LS500",
+      "generation": "пятое поколение",
+      "years": "2017-2023",
+      "body_type": "седан",
+      "engine_options": ["3.5L V6 турбо 415 л.с.", "3.5L V6 гибрид 354 л.с."],
+      "transmission": ["автоматическая 10-ступенчатая"],
+      "drive_type": ["задний", "полный"]
+    }
+  ]
+},
+{
+  "brand": "Mazda",
+  "description": "Японский автопроизводитель с акцентом на драйв и дизайн, известный технологией SkyActiv и роторными двигателями",
+  "country": "Япония",
+  "founded": 1920,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "323",
+      "generation": "BG/BA",
+      "years": "1985-1994",
+      "body_type": ["хэтчбек", "седан", "универсал"],
+      "engine_options": ["1.3L 68 л.с.", "1.5L 82 л.с.", "1.6L 90 л.с.", "1.8L 105 л.с."],
+      "transmission": ["механическая 4-ступ", "механическая 5-ступ", "автоматическая 3-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "626",
+      "generation": "GD/GE/GV",
+      "years": "1992-1997",
+      "body_type": ["седан", "хэтчбек", "универсал"],
+      "engine_options": ["1.8L 90 л.с.", "2.0L 115 л.с.", "2.0L V6 160 л.с.", "2.5L V6 164 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Atenza",
+      "generation": "GJ",
+      "years": "2012-2023",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["2.0L SkyActiv-G 150 л.с.", "2.5L SkyActiv-G 192 л.с.", "2.2L SkyActiv-D 175 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Axela",
+      "generation": "BM/BN",
+      "years": "2013-2023",
+      "body_type": ["седан", "хэтчбек"],
+      "engine_options": ["1.5L SkyActiv-G 100 л.с.", "2.0L SkyActiv-G 150 л.с.", "2.5L SkyActiv-G 184 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Bongo",
+      "generation": "SK/SL",
+      "years": "1999-2023",
+      "body_type": ["микроавтобус", "фургон", "пикап"],
+      "engine_options": ["2.0L 86 л.с.", "2.2L дизель 85 л.с.", "2.5L дизель 100 л.с.", "2.0L турбо дизель 116 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "CX-3",
+      "generation": "DK",
+      "years": "2015-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L SkyActiv-D 105 л.с.", "2.0L SkyActiv-G 120 л.с.", "2.0L SkyActiv-G 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "CX-30",
+      "generation": "first generation",
+      "years": "2019-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L SkyActiv-G 122 л.с.", "2.0L SkyActiv-G 150 л.с.", "2.5L SkyActiv-G 186 л.с.", "2.0L SkyActiv-X 180 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "CX-5",
+      "generation": "KF",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L SkyActiv-G 150 л.с.", "2.5L SkyActiv-G 194 л.с.", "2.2L SkyActiv-D 150 л.с.", "2.2L SkyActiv-D 184 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "CX-7",
+      "generation": "ER",
+      "years": "2006-2012",
+      "body_type": "кроссовер",
+      "engine_options": ["2.3L турбо 260 л.с.", "2.5L 161 л.с.", "2.2L дизель 170 л.с."],
+      "transmission": ["автоматическая 5-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "CX-8",
+      "generation": "first generation",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.5L SkyActiv-G 192 л.с.", "2.2L SkyActiv-D 190 л.с.", "2.5L турбо 230 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "CX-9",
+      "generation": "TB",
+      "years": "2016-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.5L SkyActiv-G турбо 250 л.с.", "2.5L SkyActiv-G турбо 227 л.с."],
+      "transmission": ["автоматическая 6-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Capella",
+      "generation": "GD/GE",
+      "years": "1994-1997",
+      "body_type": ["седан", "хэтчбек", "универсал"],
+      "engine_options": ["1.8L 90 л.с.", "2.0L 115 л.с.", "2.0L V6 145 л.с.", "2.5L V6 163 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Demio",
+      "generation": "DJ/DW",
+      "years": "2014-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.3L SkyActiv-G 75 л.с.", "1.5L SkyActiv-G 100 л.с.", "1.5L SkyActiv-D 105 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Familia",
+      "generation": "BH/BJ",
+      "years": "1998-2003",
+      "body_type": ["седан", "хэтчбек", "универсал"],
+      "engine_options": ["1.3L 75 л.с.", "1.5L 95 л.с.", "1.8L 115 л.с.", "2.0L дизель 90 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "MPV",
+      "generation": "LW/LY",
+      "years": "1999-2016",
+      "body_type": "минивэн",
+      "engine_options": ["2.0L 130 л.с.", "2.3L 145 л.с.", "2.5L V6 170 л.с.", "3.0L V6 200 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ", "автоматическая 5-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Mazda3",
+      "generation": "BP",
+      "years": "2019-2023",
+      "body_type": ["седан", "хэтчбек"],
+      "engine_options": ["1.5L SkyActiv-G 120 л.с.", "2.0L SkyActiv-G 150 л.с.", "2.5L SkyActiv-G 186 л.с.", "2.0L SkyActiv-X 180 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Mazda6",
+      "generation": "GJ",
+      "years": "2012-2023",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["2.0L SkyActiv-G 150 л.с.", "2.5L SkyActiv-G 192 л.с.", "2.2L SkyActiv-D 150 л.с.", "2.2L SkyActiv-D 175 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Premacy",
+      "generation": "CR",
+      "years": "1999-2005",
+      "body_type": "минивэн",
+      "engine_options": ["1.8L 115 л.с.", "2.0L 130 л.с.", "2.0L дизель 90 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "MX-5 Miata",
+      "generation": "ND",
+      "years": "2015-2023",
+      "body_type": ["родстер", "купе"],
+      "engine_options": ["1.5L SkyActiv-G 131 л.с.", "2.0L SkyActiv-G 160 л.с.", "2.0L SkyActiv-G 184 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "задний"
+    }
+  ]
+},
+{
+  "brand": "Nissan",
+  "description": "Японский автопроизводитель, известный инновационными технологиями, надежными внедорожниками и электромобилями",
+  "country": "Япония",
+  "founded": 1933,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "AD",
+      "generation": "первое поколение",
+      "years": "1999-2012",
+      "body_type": ["фургон", "микроавтобус"],
+      "engine_options": ["1.3L 88 л.с.", "1.4L 95 л.с.", "1.5L 105 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Almera",
+      "generation": "N17",
+      "years": "2012-2023",
+      "body_type": "седан",
+      "engine_options": ["1.6L 102 л.с.", "1.6L 117 л.с.", "1.5L дизель 90 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Bluebird Sylphy",
+      "generation": "G11",
+      "years": "2012-2019",
+      "body_type": "седан",
+      "engine_options": ["1.6L 114 л.с.", "1.8L 131 л.с.", "2.0L 147 л.с."],
+      "transmission": ["механическая 5-ступ", "вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Cube",
+      "generation": "Z12",
+      "years": "2008-2019",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.4L 98 л.с.", "1.5L 110 л.с.", "1.6L 112 л.с.", "1.8L 122 л.с."],
+      "transmission": ["механическая 6-ступ", "вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Figaro",
+      "generation": "первое поколение",
+      "years": "1991-1991",
+      "body_type": "кабриолет",
+      "engine_options": ["1.0L турбо 76 л.с."],
+      "transmission": ["автоматическая 3-ступенчатая"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Juke",
+      "generation": "F15",
+      "years": "2019-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.0L турбо 117 л.с.", "1.6L турбо 200 л.с. (Nismo RS)", "1.5L дизель 115 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Leaf",
+      "generation": "ZE1",
+      "years": "2017-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["электромотор 150 л.с.", "электромотор 217 л.с."],
+      "transmission": ["электромотор"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "March",
+      "generation": "K13",
+      "years": "2010-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.2L 80 л.с.", "1.5L 109 л.с.", "1.2L турбо 98 л.с.", "1.5L дизель 90 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Maxima",
+      "generation": "A36",
+      "years": "2015-2023",
+      "body_type": "седан",
+      "engine_options": ["3.5L V6 300 л.с."],
+      "transmission": ["вариатор"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Murano",
+      "generation": "Z52",
+      "years": "2014-2021",
+      "body_type": "кроссовер",
+      "engine_options": ["3.5L V6 260 л.с.", "3.5L V6 265 л.с."],
+      "transmission": ["вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Note",
+      "generation": "E12",
+      "years": "2012-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.2L 80 л.с.", "1.5L дизель 90 л.с.", "1.2L турбо 98 л.с.", "1.6L гибрид 109 л.с."],
+      "transmission": ["механическая 5-ступ", "вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Patrol",
+      "generation": "Y62",
+      "years": "2010-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["4.0L V6 275 л.с.", "5.6L V8 400 л.с.", "4.8L дизель 250 л.с."],
+      "transmission": ["автоматическая 5-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["полный"]
+    },
+    {
+      "model": "Primera",
+      "generation": "P12",
+      "years": "2001-2007",
+      "body_type": ["седан", "хэтчбек", "универсал"],
+      "engine_options": ["1.6L 100 л.с.", "1.8L 115 л.с.", "2.0L 140 л.с.", "2.2L дизель 126 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Qashqai",
+      "generation": "J11",
+      "years": "2013-2021",
+      "body_type": "кроссовер",
+      "engine_options": ["1.2L турбо 115 л.с.", "1.6L 115 л.с.", "1.5L дизель 110 л.с.", "1.6L дизель 130 л.с."],
+      "transmission": ["механическая 6-ступ", "вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Senta",
+      "generation": "B17",
+      "years": "2018-2023",
+      "body_type": "седан",
+      "engine_options": ["1.5L 99 л.с.", "1.6L 118 л.с."],
+      "transmission": ["механическая 5-ступ", "вариатор"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Teana",
+      "generation": "L33",
+      "years": "2013-2018",
+      "body_type": "седан",
+      "engine_options": ["2.0L 140 л.с.", "2.5L 173 л.с.", "3.5L V6 249 л.с."],
+      "transmission": ["вариатор", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Terrano",
+      "generation": "R20",
+      "years": "2013-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["1.6L 114 л.с.", "2.0L дизель 126 л.с.", "2.0L дизель 150 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Tiida",
+      "generation": "C11",
+      "years": "2011-2023",
+      "body_type": ["хэтчбек", "седан"],
+      "engine_options": ["1.6L 109 л.с.", "1.8L 131 л.с.", "1.5L дизель 90 л.с."],
+      "transmission": ["механическая 5-ступ", "вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "X-Trail",
+      "generation": "T32",
+      "years": "2013-2021",
+      "body_type": "кроссовер",
+      "engine_options": ["1.6L дизель 130 л.с.", "2.0L 144 л.с.", "2.5L 171 л.с.", "2.0L гибрид 187 л.с."],
+      "transmission": ["механическая 6-ступ", "вариатор"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "GT-R",
+      "generation": "R35",
+      "years": "2007-2023",
+      "body_type": "купе",
+      "engine_options": ["3.8L V6 турбо 480 л.с.", "3.8L V6 турбо 565 л.с.", "3.8L V6 турбо 600 л.с. (Nismo)"],
+      "transmission": ["робот 6-ступ"],
+      "drive_type": "полный"
+    }
+  ]
+},
+{
+  "brand": "Opel",
+  "description": "Немецкий автопроизводитель с богатой историей, предлагающий практичные и технологичные автомобили для всей семьи",
+  "country": "Германия",
+  "founded": 1862,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "Antara",
+      "generation": "первое поколение",
+      "years": "2006-2015",
+      "body_type": "внедорожник",
+      "engine_options": ["2.4L 140 л.с.", "3.2L V6 227 л.с.", "2.0L дизель 150 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 5-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Ascona",
+      "generation": "C",
+      "years": "1981-1988",
+      "body_type": ["седан", "хэтчбек", "универсал"],
+      "engine_options": ["1.3L 60 л.с.", "1.6L 75 л.с.", "1.8L 90 л.с.", "2.0L 115 л.с."],
+      "transmission": ["механическая 4-ступ", "механическая 5-ступ", "автоматическая 3-ступ"],
+      "drive_type": ["передний", "задний"]
+    },
+    {
+      "model": "Astra",
+      "generation": "K",
+      "years": "2015-2023",
+      "body_type": ["хэтчбек", "седан", "универсал", "кабриолет"],
+      "engine_options": ["1.4L 100 л.с.", "1.6L 115 л.с.", "1.4L турбо 150 л.с.", "1.6L турбо 200 л.с.", "2.0L дизель 160 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Astra GTC",
+      "generation": "J",
+      "years": "2011-2018",
+      "body_type": "купе",
+      "engine_options": ["1.4L турбо 120 л.с.", "1.6L турбо 180 л.с.", "2.0L дизель 165 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Combo",
+      "generation": "D",
+      "years": "2018-2023",
+      "body_type": ["фургон", "минивэн"],
+      "engine_options": ["1.2L турбо 100 л.с.", "1.5L дизель 100 л.с.", "1.5L дизель 120 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Corsa",
+      "generation": "F",
+      "years": "2019-2023",
+      "body_type": ["хэтчбек", "седан"],
+      "engine_options": ["1.2L 75 л.с.", "1.4L 90 л.с.", "1.2L турбо 100 л.с.", "1.5L дизель 102 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Frontera",
+      "generation": "B",
+      "years": "1998-2004",
+      "body_type": "внедорожник",
+      "engine_options": ["2.2L 115 л.с.", "2.2L дизель 115 л.с.", "3.2L V6 205 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "Grandland X",
+      "generation": "первое поколение",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.2L турбо 130 л.с.", "1.6L турбо 180 л.с.", "2.0L дизель 130 л.с.", "1.6L гибрид 225 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Insignia",
+      "generation": "B",
+      "years": "2017-2023",
+      "body_type": ["седан", "универсал", "хэтчбек"],
+      "engine_options": ["1.5L турбо 140 л.с.", "2.0L турбо 230 л.с.", "2.0L дизель 170 л.с.", "2.0L дизель 210 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Kadett",
+      "generation": "E",
+      "years": "1984-1991",
+      "body_type": ["хэтчбек", "седан", "универсал", "кабриолет"],
+      "engine_options": ["1.3L 60 л.с.", "1.6L 75 л.с.", "1.8L 90 л.с.", "2.0L 115 л.с."],
+      "transmission": ["механическая 4-ступ", "механическая 5-ступ", "автоматическая 3-ступ"],
+      "drive_type": ["передний", "задний"]
+    },
+    {
+      "model": "Meriva",
+      "generation": "B",
+      "years": "2010-2017",
+      "body_type": "минивэн",
+      "engine_options": ["1.4L 100 л.с.", "1.4L турбо 120 л.с.", "1.6L турбо 180 л.с.", "1.7L дизель 110 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Mokka",
+      "generation": "B",
+      "years": "2020-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.2L турбо 130 л.с.", "1.5L дизель 102 л.с.", "электромотор 136 л.с. (Mokka-e)"],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Omega",
+      "generation": "B",
+      "years": "1994-2003",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["2.0L 115 л.с.", "2.5L V6 170 л.с.", "3.0L V6 211 л.с.", "2.5L дизель 130 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ", "автоматическая 5-ступ"],
+      "drive_type": ["задний", "полный"]
+    },
+    {
+      "model": "Tigra",
+      "generation": "B",
+      "years": "2004-2009",
+      "body_type": "купе-кабриолет",
+      "engine_options": ["1.4L 90 л.с.", "1.8L 125 л.с."],
+      "transmission": ["механическая 5-ступенчатая"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Vectra",
+      "generation": "C",
+      "years": "2002-2008",
+      "body_type": ["седан", "хэтчбек", "универсал"],
+      "engine_options": ["1.8L 140 л.с.", "2.2L 155 л.с.", "3.2L V6 211 л.с.", "2.0L дизель 120 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 5-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Vivaro",
+      "generation": "B",
+      "years": "2014-2023",
+      "body_type": ["фургон", "минивэн"],
+      "engine_options": ["1.6L дизель 115 л.с.", "2.0L дизель 120 л.с.", "2.0L дизель 150 л.с."],
+      "transmission": ["механическая 6-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Zafira",
+      "generation": "C",
+      "years": "2011-2019",
+      "body_type": "минивэн",
+      "engine_options": ["1.4L турбо 140 л.с.", "1.6L 115 л.с.", "1.7L дизель 110 л.с.", "2.0L дизель 170 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Adam",
+      "generation": "первое поколение",
+      "years": "2013-2019",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.2L 70 л.с.", "1.4L 87 л.с.", "1.4L 100 л.с."],
+      "transmission": ["механическая 5-ступенчатая"],
+      "drive_type": "передний"
+    }
+  ]
+},
+{
+  "brand": "Peugeot",
+  "description": "Французский автопроизводитель с богатой историей, известный элегантным дизайном и инновационными решениями",
+  "country": "Франция",
+  "founded": 1810,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "107",
+      "generation": "первое поколение",
+      "years": "2005-2014",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.0L 68 л.с.", "1.4L дизель 54 л.с."],
+      "transmission": ["механическая 5-ступенчатая"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "2008",
+      "generation": "второе поколение",
+      "years": "2019-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.2L PureTech 100 л.с.", "1.2L PureTech 130 л.с.", "1.5L BlueHDi 100 л.с.", "1.5L BlueHDi 130 л.с.", "электромотор 136 л.с. (e-2008)"],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "206",
+      "generation": "первое поколение",
+      "years": "1998-2012",
+      "body_type": ["хэтчбек", "седан", "универсал", "кабриолет"],
+      "engine_options": ["1.1L 60 л.с.", "1.4L 75 л.с.", "1.6L 110 л.с.", "2.0L 137 л.с. (RC)", "1.4L дизель 70 л.с.", "1.6L дизель 110 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "207",
+      "generation": "первое поколение",
+      "years": "2006-2014",
+      "body_type": ["хэтчбек", "седан", "кабриолет"],
+      "engine_options": ["1.4L 75 л.с.", "1.6L 120 л.с.", "1.6L турбо 150 л.с. (THP)", "1.4L дизель 70 л.с.", "1.6L дизель 90 л.с.", "1.6L дизель 110 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "208",
+      "generation": "второе поколение",
+      "years": "2019-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.2L PureTech 75 л.с.", "1.2L PureTech 100 л.с.", "1.2L PureTech 130 л.с.", "1.5L BlueHDi 100 л.с.", "электромотор 136 л.с. (e-208)"],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "3008",
+      "generation": "второе поколение",
+      "years": "2016-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.2L PureTech 130 л.с.", "1.6L PureTech 165 л.с.", "1.5L BlueHDi 130 л.с.", "2.0L BlueHDi 180 л.с.", "1.6L гибрид 225 л.с.", "1.6L гибрид 300 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "301",
+      "generation": "первое поколение",
+      "years": "2012-2023",
+      "body_type": "седан",
+      "engine_options": ["1.2L VTi 72 л.с.", "1.6L VTi 115 л.с.", "1.6L HDi 92 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "307",
+      "generation": "первое поколение",
+      "years": "2001-2008",
+      "body_type": ["хэтчбек", "седан", "универсал", "кабриолет"],
+      "engine_options": ["1.4L 90 л.с.", "1.6L 110 л.с.", "2.0L 140 л.с.", "2.0L 180 л.с. (RC)", "1.6L дизель 90 л.с.", "2.0L дизель 110 л.с.", "2.0L дизель 136 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "308",
+      "generation": "второе поколение",
+      "years": "2013-2021",
+      "body_type": ["хэтчбек", "универсал"],
+      "engine_options": ["1.2L PureTech 110 л.с.", "1.2L PureTech 130 л.с.", "1.6L THP 165 л.с.", "1.5L BlueHDi 102 л.с.", "1.6L BlueHDi 120 л.с.", "2.0L BlueHDi 150 л.с.", "2.0L BlueHDi 180 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "4007",
+      "generation": "первое поколение",
+      "years": "2007-2012",
+      "body_type": "внедорожник",
+      "engine_options": ["2.4L 170 л.с.", "2.2L дизель 156 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "406",
+      "generation": "первое поколение",
+      "years": "1995-2004",
+      "body_type": ["седан", "универсал", "купе"],
+      "engine_options": ["1.8L 110 л.с.", "2.0L 132 л.с.", "2.2L 160 л.с.", "3.0L V6 194 л.с.", "2.0L дизель 90 л.с.", "2.1L дизель 109 л.с.", "2.2L дизель 133 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "407",
+      "generation": "первое поколение",
+      "years": "2004-2010",
+      "body_type": ["седан", "универсал", "купе"],
+      "engine_options": ["1.8L 125 л.с.", "2.0L 140 л.с.", "2.2L 163 л.с.", "3.0L V6 211 л.с.", "1.6L дизель 109 л.с.", "2.0L дизель 136 л.с.", "2.7L дизель V6 204 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "408",
+      "generation": "первое поколение",
+      "years": "2010-2023",
+      "body_type": "седан",
+      "engine_options": ["1.6L VTi 120 л.с.", "1.6L THP 150 л.с.", "1.6L THP 165 л.с.", "2.0L HDi 150 л.с.", "1.6L e-HDi 112 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "5008",
+      "generation": "второе поколение",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.2L PureTech 130 л.с.", "1.6L PureTech 165 л.с.", "1.5L BlueHDi 130 л.с.", "2.0L BlueHDi 180 л.с.", "1.6L гибрид 225 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "508",
+      "generation": "второе поколение",
+      "years": "2018-2023",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["1.6L PureTech 180 л.с.", "1.6L PureTech 225 л.с.", "2.0L BlueHDi 160 л.с.", "2.0L BlueHDi 180 л.с.", "1.6L гибрид 225 л.с.", "1.6L гибрид 360 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "607",
+      "generation": "первое поколение",
+      "years": "1999-2010",
+      "body_type": "седан",
+      "engine_options": ["2.2L HDi 133 л.с.", "2.7L HDi V6 204 л.с.", "3.0L V6 211 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Expert",
+      "generation": "третье поколение",
+      "years": "2016-2023",
+      "body_type": ["фургон", "минивэн"],
+      "engine_options": ["1.6L BlueHDi 95 л.с.", "1.6L BlueHDi 115 л.с.", "2.0L BlueHDi 150 л.с.", "2.0L BlueHDi 180 л.с."],
+      "transmission": ["механическая 6-ступенчатая"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Partner",
+      "generation": "третье поколение",
+      "years": "2018-2023",
+      "body_type": ["фургон", "минивэн"],
+      "engine_options": ["1.2L PureTech 110 л.с.", "1.5L BlueHDi 100 л.с.", "1.5L BlueHDi 130 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": "передний"
+    }
+  ]
+},
+{
+  "brand": "Renault",
+  "description": "Французский автопроизводитель, известный инновационным дизайном, комфортными автомобилями и доступными моделями",
+  "country": "Франция",
+  "founded": 1899,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "Arkana",
+      "generation": "первое поколение",
+      "years": "2019-2023",
+      "body_type": "кроссовер-купе",
+      "engine_options": ["1.3L TCe 140 л.с.", "1.3L TCe 150 л.с.", "1.6L гибрид 140 л.с."],
+      "transmission": ["вариатор", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Clio",
+      "generation": "пятое поколение",
+      "years": "2019-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.0L SCe 65 л.с.", "1.0L TCe 100 л.с.", "1.3L TCe 130 л.с.", "1.5L dCi 85 л.с.", "1.5L dCi 115 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Duster",
+      "generation": "второе поколение",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.6L 114 л.с.", "1.3L TCe 150 л.с.", "1.5L dCi 90 л.с.", "1.5L dCi 115 л.с.", "2.0L 143 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Espace",
+      "generation": "пятое поколение",
+      "years": "2015-2023",
+      "body_type": "кроссовер-минивэн",
+      "engine_options": ["1.6L dCi 130 л.с.", "1.8L TCe 225 л.с.", "2.0L dCi 160 л.с.", "2.0L dCi 200 л.с."],
+      "transmission": ["автоматическая 7-ступенчатая"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Fluence",
+      "generation": "первое поколение",
+      "years": "2009-2016",
+      "body_type": "седан",
+      "engine_options": ["1.6L 110 л.с.", "2.0L 140 л.с.", "1.5L dCi 90 л.с.", "1.5L dCi 110 л.с.", "электромотор 95 л.с. (ZE)"],
+      "transmission": ["механическая 5-ступ", "вариатор", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Grand Scenic",
+      "generation": "четвертое поколение",
+      "years": "2016-2022",
+      "body_type": "минивэн",
+      "engine_options": ["1.3L TCe 140 л.с.", "1.5L dCi 115 л.с.", "1.6L dCi 130 л.с.", "1.7L dCi 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Kadjar",
+      "generation": "первое поколение",
+      "years": "2015-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.3L TCe 140 л.с.", "1.3L TCe 160 л.с.", "1.5L dCi 115 л.с.", "1.6L dCi 130 л.с.", "2.0L dCi 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Kangoo",
+      "generation": "третье поколение",
+      "years": "2021-2023",
+      "body_type": ["фургон", "минивэн"],
+      "engine_options": ["1.3L TCe 130 л.с.", "1.5L dCi 95 л.с.", "1.5L dCi 115 л.с.", "электромотор 90 л.с. (E-Tech)"],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Kaptur",
+      "generation": "первое поколение",
+      "years": "2016-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.6L 114 л.с.", "1.3L TCe 150 л.с.", "1.5L dCi 90 л.с.", "1.5L dCi 110 л.с."],
+      "transmission": ["механическая 5-ступ", "вариатор", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Koleos",
+      "generation": "второе поколение",
+      "years": "2016-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.5L 171 л.с.", "2.0L dCi 150 л.с.", "2.0L dCi 190 л.с."],
+      "transmission": ["вариатор", "автоматическая 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Laguna",
+      "generation": "третье поколение",
+      "years": "2007-2015",
+      "body_type": ["хэтчбек", "универсал", "купе"],
+      "engine_options": ["1.5L dCi 110 л.с.", "2.0L dCi 150 л.с.", "2.0L dCi 180 л.с.", "2.0L Turbo 170 л.с.", "3.5L V6 240 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Logan",
+      "generation": "второе поколение",
+      "years": "2012-2023",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["1.6L 82 л.с.", "1.6L 102 л.с.", "1.5L dCi 75 л.с.", "1.5L dCi 90 л.с.", "1.5L dCi 110 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Megane",
+      "generation": "четвертое поколение",
+      "years": "2016-2023",
+      "body_type": ["хэтчбек", "универсал", "седан", "купе"],
+      "engine_options": ["1.3L TCe 140 л.с.", "1.3L TCe 160 л.с.", "1.5L dCi 115 л.с.", "1.7L dCi 150 л.с.", "2.0L 280 л.с. (RS)"],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ", "робот 6-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Sandero",
+      "generation": "второе поколение",
+      "years": "2012-2023",
+      "body_type": ["хэтчбек", "седан"],
+      "engine_options": ["1.0L SCe 65 л.с.", "1.6L 82 л.с.", "1.6L 102 л.с.", "1.5L dCi 75 л.с.", "1.5L dCi 90 л.с.", "1.0L турбо 100 л.с. (Stepway)"],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ", "вариатор"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Scenic",
+      "generation": "четвертое поколение",
+      "years": "2016-2022",
+      "body_type": "минивэн",
+      "engine_options": ["1.2L TCe 115 л.с.", "1.3L TCe 140 л.с.", "1.5L dCi 110 л.с.", "1.6L dCi 130 л.с.", "1.7L dCi 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Symbol",
+      "generation": "третье поколение",
+      "years": "2012-2023",
+      "body_type": "седан",
+      "engine_options": ["1.2L 75 л.с.", "1.6L 84 л.с.", "1.5L dCi 75 л.с.", "1.5L dCi 90 л.с.", "1.5L dCi 110 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Talisman",
+      "generation": "первое поколение",
+      "years": "2015-2023",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["1.6L TCe 150 л.с.", "1.6L TCe 200 л.с.", "1.7L dCi 150 л.с.", "2.0L dCi 160 л.с.", "2.0L dCi 190 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Twizy",
+      "generation": "первое поколение",
+      "years": "2012-2023",
+      "body_type": "квадрицикл",
+      "engine_options": ["электромотор 5 л.с.", "электромотор 17 л.с."],
+      "transmission": ["электромотор"],
+      "drive_type": "задний"
+    }
+  ]
+},
+{
+  "brand": "Skoda",
+  "description": "Чешский автопроизводитель, предлагающий практичные, просторные и надежные автомобили с немецким качеством",
+  "country": "Чехия",
+  "founded": 1895,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "105/120/125",
+      "generation": "Type 742",
+      "years": "1976-1990",
+      "body_type": ["седан", "лифтбэк", "универсал"],
+      "engine_options": ["1.0L 45 л.с. (105)", "1.2L 58 л.с. (120)", "1.3L 58 л.с. (125)"],
+      "transmission": ["механическая 4-ступенчатая"],
+      "drive_type": "задний"
+    },
+    {
+      "model": "440/445/450",
+      "generation": "Type 440/445",
+      "years": "1955-1959",
+      "body_type": ["седан", "купе", "кабриолет"],
+      "engine_options": ["1.1L 40 л.с. (440)", "1.1L 45 л.с. (445)", "1.1L 50 л.с. (450)"],
+      "transmission": ["механическая 4-ступенчатая"],
+      "drive_type": "задний"
+    },
+    {
+      "model": "Fabia",
+      "generation": "четвертое поколение",
+      "years": "2021-2023",
+      "body_type": ["хэтчбек", "универсал"],
+      "engine_options": ["1.0L MPI 60 л.с.", "1.0L TSI 80 л.с.", "1.0L TSI 95 л.с.", "1.0L TSI 110 л.с.", "1.5L TSI 150 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Favorit",
+      "generation": "Type 781",
+      "years": "1987-1995",
+      "body_type": ["хэтчбек", "универсал"],
+      "engine_options": ["1.3L 46 л.с.", "1.3L 54 л.с.", "1.3L 58 л.с."],
+      "transmission": ["механическая 4-ступ", "механическая 5-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Felicia",
+      "generation": "Type 791",
+      "years": "1994-2001",
+      "body_type": ["хэтчбек", "универсал", "пикап", "фургон"],
+      "engine_options": ["1.3L 50 л.с.", "1.6L 68 л.с.", "1.9L дизель 64 л.с."],
+      "transmission": ["механическая 5-ступенчатая"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Forman",
+      "generation": "Type 781",
+      "years": "1987-1995",
+      "body_type": "универсал",
+      "engine_options": ["1.3L 46 л.с.", "1.3L 54 л.с.", "1.3L 58 л.с."],
+      "transmission": ["механическая 4-ступ", "механическая 5-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Kamiq",
+      "generation": "первое поколение",
+      "years": "2019-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.0L TSI 95 л.с.", "1.0L TSI 110 л.с.", "1.5L TSI 150 л.с.", "1.6L TDI 115 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Karoq",
+      "generation": "первое поколение",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.0L TSI 115 л.с.", "1.5L TSI 150 л.с.", "2.0L TSI 190 л.с.", "1.6L TDI 115 л.с.", "2.0L TDI 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Kodiaq",
+      "generation": "первое поколение",
+      "years": "2016-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.5L TSI 150 л.с.", "2.0L TSI 180 л.с.", "2.0L TSI 220 л.с.", "2.0L TDI 150 л.с.", "2.0L TDI 190 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Octavia",
+      "generation": "четвертое поколение",
+      "years": "2019-2023",
+      "body_type": ["хэтчбек", "универсал"],
+      "engine_options": ["1.0L TSI 110 л.с.", "1.5L TSI 150 л.с.", "2.0L TSI 190 л.с.", "2.0L TSI 245 л.с. (RS)", "2.0L TDI 115 л.с.", "2.0L TDI 150 л.с.", "2.0L TDI 200 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Praktik",
+      "generation": "Type 5J",
+      "years": "2007-2015",
+      "body_type": "фургон",
+      "engine_options": ["1.2L TSI 86 л.с.", "1.2L TSI 105 л.с.", "1.6L MPI 105 л.с."],
+      "transmission": ["механическая 5-ступенчатая"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Rapid",
+      "generation": "первое поколение",
+      "years": "2012-2023",
+      "body_type": ["седан", "хэтчбек", "универсал"],
+      "engine_options": ["1.0L TSI 95 л.с.", "1.0L TSI 110 л.с.", "1.4L TSI 125 л.с.", "1.6L TDI 90 л.с.", "1.6L TDI 115 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Roomster",
+      "generation": "Type 5J",
+      "years": "2006-2015",
+      "body_type": "минивэн",
+      "engine_options": ["1.2L TSI 86 л.с.", "1.2L TSI 105 л.с.", "1.6L MPI 105 л.с.", "1.4L TDI 80 л.с.", "1.6L TDI 105 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 6-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Superb",
+      "generation": "четвертое поколение",
+      "years": "2019-2023",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["1.5L TSI 150 л.с.", "2.0L TSI 190 л.с.", "2.0L TSI 280 л.с.", "2.0L TDI 150 л.с.", "2.0L TDI 190 л.с.", "2.0L TDI 200 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный"]
+    },
+    {
+      "model": "Scala",
+      "generation": "первое поколение",
+      "years": "2019-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.0L TSI 95 л.с.", "1.0L TSI 110 л.с.", "1.5L TSI 150 л.с.", "1.6L TDI 115 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Enyaq iV",
+      "generation": "первое поколение",
+      "years": "2020-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["электромотор 148 л.с.", "электромотор 204 л.с.", "электромотор 265 л.с."],
+      "transmission": ["электромотор"],
+      "drive_type": ["задний", "полный"]
+    }
+  ]
+},
+{
+  "brand": "Subaru",
+  "description": "Японский автопроизводитель, известный полным приводом, оппозитными двигателями и спортивными характеристиками",
+  "country": "Япония",
+  "founded": 1953,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "B9 Tribeca",
+      "generation": "первое поколение",
+      "years": "2005-2014",
+      "body_type": "внедорожник",
+      "engine_options": ["3.0L H6 245 л.с.", "3.6L H6 256 л.с.", "3.6L H6 258 л.с."],
+      "transmission": ["автоматическая 5-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["полный Symmetrical AWD"]
+    },
+    {
+      "model": "Exiga",
+      "generation": "первое поколение",
+      "years": "2008-2018",
+      "body_type": "минивэн",
+      "engine_options": ["2.0L H4 150 л.с.", "2.0L турбо 215 л.с.", "2.5L H4 170 л.с."],
+      "transmission": ["вариатор", "автоматическая 4-ступ", "автоматическая 5-ступ"],
+      "drive_type": ["передний", "полный Symmetrical AWD"]
+    },
+    {
+      "model": "Forester",
+      "generation": "пятое поколение",
+      "years": "2018-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L H4 156 л.с.", "2.5L H4 185 л.с.", "2.0L турбо 280 л.с.", "2.0L гибрид 150 л.с."],
+      "transmission": ["вариатор", "механическая 6-ступ"],
+      "drive_type": ["полный Symmetrical AWD"]
+    },
+    {
+      "model": "Impreza",
+      "generation": "пятое поколение",
+      "years": "2016-2023",
+      "body_type": ["хэтчбек", "седан"],
+      "engine_options": ["1.6L H4 114 л.с.", "2.0L H4 156 л.с.", "2.0L H4 154 л.с."],
+      "transmission": ["вариатор", "механическая 5-ступ"],
+      "drive_type": ["полный Symmetrical AWD"]
+    },
+    {
+      "model": "Impreza WRX",
+      "generation": "четвертое поколение",
+      "years": "2014-2023",
+      "body_type": ["седан", "хэтчбек"],
+      "engine_options": ["2.0L турбо 268 л.с.", "2.5L турбо 265 л.с.", "2.5L турбо 305 л.с. (STI)"],
+      "transmission": ["механическая 6-ступенчатая"],
+      "drive_type": ["полный Symmetrical AWD"]
+    },
+    {
+      "model": "Justy",
+      "generation": "третье поколение",
+      "years": "2003-2010",
+      "body_type": ["хэтчбек", "внедорожник"],
+      "engine_options": ["1.0L 65 л.с.", "1.2L 80 л.с.", "1.3L 86 л.с."],
+      "transmission": ["механическая 5-ступ", "вариатор"],
+      "drive_type": ["передний", "полный AWD"]
+    },
+    {
+      "model": "Legacy",
+      "generation": "седьмое поколение",
+      "years": "2019-2023",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["2.5L H4 182 л.с.", "2.4L турбо 260 л.с.", "2.5L гибрид 160 л.с."],
+      "transmission": ["вариатор", "автоматическая 6-ступ"],
+      "drive_type": ["полный Symmetrical AWD"]
+    },
+    {
+      "model": "Levorg",
+      "generation": "второе поколение",
+      "years": "2020-2023",
+      "body_type": "универсал",
+      "engine_options": ["1.8L турбо 177 л.с.", "2.4L турбо 275 л.с."],
+      "transmission": ["вариатор"],
+      "drive_type": ["полный Symmetrical AWD"]
+    },
+    {
+      "model": "Outback",
+      "generation": "седьмое поколение",
+      "years": "2019-2023",
+      "body_type": "кроссовер-универсал",
+      "engine_options": ["2.5L H4 182 л.с.", "2.4L турбо 260 л.с.", "2.5L гибрид 160 л.с."],
+      "transmission": ["вариатор"],
+      "drive_type": ["полный Symmetrical AWD"]
+    },
+    {
+      "model": "Pleo",
+      "generation": "второе поколение",
+      "years": "2009-2023",
+      "body_type": "кей-кар",
+      "engine_options": ["0.66L 52 л.с.", "0.66L турбо 64 л.с."],
+      "transmission": ["вариатор", "механическая 5-ступ"],
+      "drive_type": ["передний", "полный AWD"]
+    },
+    {
+      "model": "R2",
+      "generation": "первое поколение",
+      "years": "2003-2010",
+      "body_type": "кей-кар",
+      "engine_options": ["0.66L 54 л.с.", "0.66L турбо 60 л.с."],
+      "transmission": ["вариатор", "механическая 5-ступ"],
+      "drive_type": ["передний", "полный AWD"]
+    },
+    {
+      "model": "Stella",
+      "generation": "первое поколение",
+      "years": "2006-2011",
+      "body_type": "кей-кар",
+      "engine_options": ["0.66L 54 л.с.", "0.66L турбо 64 л.с.", "электромотор 47 л.с."],
+      "transmission": ["вариатор", "механическая 5-ступ"],
+      "drive_type": ["передний", "полный AWD"]
+    },
+    {
+      "model": "Traviq",
+      "generation": "первое поколение",
+      "years": "2001-2004",
+      "body_type": "минивэн",
+      "engine_options": ["2.0L 128 л.с.", "2.2L 147 л.с."],
+      "transmission": ["автоматическая 4-ступенчатая"],
+      "drive_type": ["передний", "полный AWD"]
+    },
+    {
+      "model": "Trezia",
+      "generation": "первое поколение",
+      "years": "2011-2016",
+      "body_type": "хэтчбек",
+      "engine_options": ["1.3L 95 л.с.", "1.5L гибрид 100 л.с."],
+      "transmission": ["вариатор", "механическая 5-ступ"],
+      "drive_type": ["передний", "полный AWD"]
+    },
+    {
+      "model": "Tribeca",
+      "generation": "первое поколение",
+      "years": "2005-2014",
+      "body_type": "внедорожник",
+      "engine_options": ["3.0L H6 245 л.с.", "3.6L H6 256 л.с."],
+      "transmission": ["автоматическая 5-ступ", "автоматическая 6-ступ"],
+      "drive_type": ["полный Symmetrical AWD"]
+    },
+    {
+      "model": "XV",
+      "generation": "второе поколение",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L H4 156 л.с.", "2.0L гибрид 150 л.с.", "2.5L H4 185 л.с."],
+      "transmission": ["вариатор", "механическая 6-ступ"],
+      "drive_type": ["полный Symmetrical AWD"]
+    },
+    {
+      "model": "BRZ",
+      "generation": "второе поколение",
+      "years": "2021-2023",
+      "body_type": "купе",
+      "engine_options": ["2.4L H4 231 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ"],
+      "drive_type": "задний"
+    }
+  ]
+},
+{
+  "brand": "Volkswagen",
+  "description": "Немецкий автоконцерн, предлагающий качественные, надежные и технологичные автомобили для массового рынка",
+  "country": "Германия",
+  "founded": 1937,
+  "segment": "mass",
+  "models": [
+    {
+      "model": "Amarok",
+      "generation": "второе поколение",
+      "years": "2016-2023",
+      "body_type": "пикап",
+      "engine_options": ["2.0L TDI 150 л.с.", "2.0L TDI 190 л.с.", "2.0L TDI 204 л.с.", "3.0L V6 TDI 224 л.с.", "3.0L V6 TDI 258 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["задний", "полный 4MOTION"]
+    },
+    {
+      "model": "Beetle",
+      "generation": "A5",
+      "years": "2011-2019",
+      "body_type": ["хэтчбек", "кабриолет"],
+      "engine_options": ["1.2L TSI 105 л.с.", "1.4L TSI 150 л.с.", "2.0L TSI 200 л.с.", "2.0L TDI 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 6-ступ", "робот 7-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Bora",
+      "generation": "1J",
+      "years": "1998-2005",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["1.6L 100 л.с.", "1.8L 125 л.с.", "2.0L 115 л.с.", "2.3L V5 150 л.с.", "2.8L VR6 204 л.с.", "1.9L TDI 100 л.с.", "1.9L TDI 130 л.с."],
+      "transmission": ["механическая 5-ступ", "автоматическая 4-ступ", "автоматическая 5-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Caddy",
+      "generation": "четвертое поколение",
+      "years": "2015-2023",
+      "body_type": ["фургон", "минивэн"],
+      "engine_options": ["1.0L TSI 115 л.с.", "1.2L TSI 84 л.с.", "1.4L TSI 122 л.с.", "1.6L TDI 102 л.с.", "2.0L TDI 102 л.с.", "2.0L TDI 150 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Caravelle",
+      "generation": "T6/T6.1",
+      "years": "2015-2023",
+      "body_type": "микроавтобус",
+      "engine_options": ["2.0L TSI 150 л.с.", "2.0L TSI 204 л.с.", "2.0L TDI 102 л.с.", "2.0L TDI 150 л.с.", "2.0L TDI 199 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Golf",
+      "generation": "восьмое поколение",
+      "years": "2019-2023",
+      "body_type": ["хэтчбек", "универсал"],
+      "engine_options": ["1.0L TSI 110 л.с.", "1.5L TSI 130 л.с.", "1.5L TSI 150 л.с.", "2.0L TSI 245 л.с. (GTI)", "2.0L TSI 300 л.с. (R)", "2.0L TDI 115 л.с.", "2.0L TDI 150 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ", "робот 6-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Jetta",
+      "generation": "седьмое поколение",
+      "years": "2018-2023",
+      "body_type": "седан",
+      "engine_options": ["1.4L TSI 150 л.с.", "1.5L TSI 158 л.с.", "2.0L TSI 228 л.с. (GLI)"],
+      "transmission": ["механическая 6-ступ", "автоматическая 8-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Multivan",
+      "generation": "T6/T6.1",
+      "years": "2015-2023",
+      "body_type": "микроавтобус",
+      "engine_options": ["2.0L TSI 150 л.с.", "2.0L TSI 204 л.с.", "2.0L TDI 150 л.с.", "2.0L TDI 199 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Passat",
+      "generation": "B8",
+      "years": "2014-2023",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["1.4L TSI 150 л.с.", "1.5L TSI 150 л.с.", "2.0L TSI 190 л.с.", "2.0L TSI 280 л.с.", "2.0L TDI 120 л.с.", "2.0L TDI 150 л.с.", "2.0L TDI 190 л.с.", "2.0L TDI 240 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ", "робот 6-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Passat CC",
+      "generation": "первое поколение",
+      "years": "2008-2016",
+      "body_type": "седан-купе",
+      "engine_options": ["1.8L TSI 160 л.с.", "2.0L TSI 200 л.с.", "3.6L V6 300 л.с.", "2.0L TDI 140 л.с.", "2.0L TDI 170 л.с."],
+      "transmission": ["механическая 6-ступ", "робот 6-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Pointer",
+      "generation": "первое поколение",
+      "years": "1993-1997",
+      "body_type": ["хэтчбек", "универсал"],
+      "engine_options": ["1.6L 54 л.с.", "1.8L 90 л.с.", "2.0L 116 л.с."],
+      "transmission": ["механическая 5-ступенчатая"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Polo",
+      "generation": "шестое поколение",
+      "years": "2017-2023",
+      "body_type": ["хэтчбек", "седан"],
+      "engine_options": ["1.0L MPI 65 л.с.", "1.0L MPI 75 л.с.", "1.0L TSI 95 л.с.", "1.0L TSI 115 л.с.", "1.5L TSI 150 л.с.", "1.6L TDI 80 л.с.", "1.6L TDI 95 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "Sharan",
+      "generation": "второе поколение",
+      "years": "2010-2022",
+      "body_type": "минивэн",
+      "engine_options": ["1.4L TSI 150 л.с.", "2.0L TSI 220 л.с.", "2.0L TDI 140 л.с.", "2.0L TDI 170 л.с.", "2.0L TDI 190 л.с."],
+      "transmission": ["механическая 6-ступ", "робот 6-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "T-Cross",
+      "generation": "первое поколение",
+      "years": "2018-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.0L TSI 95 л.с.", "1.0L TSI 115 л.с.", "1.5L TSI 150 л.с.", "1.6L TDI 95 л.с."],
+      "transmission": ["механическая 5-ступ", "механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "T-Roc",
+      "generation": "первое поколение",
+      "years": "2017-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.0L TSI 115 л.с.", "1.5L TSI 150 л.с.", "2.0L TSI 190 л.с.", "2.0L TSI 300 л.с. (R)", "1.6L TDI 115 л.с.", "2.0L TDI 150 л.с.", "2.0L TDI 190 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Tavendor",
+      "generation": "первое поколение",
+      "years": "2022-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["2.0L TSI 186 л.с.", "2.0L TSI 220 л.с.", "2.5L V6 299 л.с."],
+      "transmission": ["автоматическая 7-ступенчатая"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Teramont",
+      "generation": "первое поколение",
+      "years": "2017-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["2.0L TSI 186 л.с.", "2.0L TSI 220 л.с.", "2.5L V6 299 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Tiguan",
+      "generation": "второе поколение",
+      "years": "2016-2023",
+      "body_type": "кроссовер",
+      "engine_options": ["1.4L TSI 150 л.с.", "1.5L TSI 150 л.с.", "2.0L TSI 180 л.с.", "2.0L TSI 220 л.с.", "2.0L TDI 150 л.с.", "2.0L TDI 190 л.с.", "2.0L TDI 240 л.с."],
+      "transmission": ["механическая 6-ступ", "автоматическая 7-ступ"],
+      "drive_type": ["передний", "полный 4MOTION"]
+    },
+    {
+      "model": "Touareg",
+      "generation": "третье поколение",
+      "years": "2018-2023",
+      "body_type": "внедорожник",
+      "engine_options": ["3.0L V6 TSI 340 л.с.", "3.0L V6 TDI 231 л.с.", "3.0L V6 TDI 286 л.с.", "4.0L V8 TDI 421 л.с."],
+      "transmission": ["автоматическая 8-ступенчатая"],
+      "drive_type": ["полный 4MOTION"]
+    },
+    {
+      "model": "Vento",
+      "generation": "первое поколение",
+      "years": "1992-1998",
+      "body_type": ["седан", "универсал"],
+      "engine_options": ["1.6L 55 л.с.", "1.6L 75 л.с.", "1.8L 90 л.с.", "2.0L 115 л.с.", "1.9L D 64 л.с."],
+      "transmission": ["механическая 4-ступ", "механическая 5-ступ", "автоматическая 3-ступ"],
+      "drive_type": "передний"
+    },
+    {
+      "model": "ID.3",
+      "generation": "первое поколение",
+      "years": "2019-2023",
+      "body_type": "хэтчбек",
+      "engine_options": ["электромотор 150 л.с.", "электромотор 204 л.с."],
+      "transmission": ["электромотор"],
+      "drive_type": "задний"
+    }
+  ]
+}
