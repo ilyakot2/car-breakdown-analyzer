@@ -1,6 +1,5 @@
 from telegram.ext import ConversationHandler
 
-# Стадии разговора
 CAR_BRAND = 1
 CAR_MODEL = 2
 CAR_SYSTEM = 3
